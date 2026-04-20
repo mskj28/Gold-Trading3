@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gold Trading</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped&family=Nunito&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header">
+            <div>
+                <p>เทรดทองพารวย</p>
+                <p>วันที่ <span id="date"></span></p>
+            </div>
+            <div class="timer">
+                <p>เวลาที่วิเคราะห์ถัดไป</p>
+                <h1 id="timer">5:00</h1>
+            </div>
+        </div>
+
+
+        <div class="chart-box">
+            <div id="tradingview_chart"></div>
+        </div>
+
+        <div class="signal-section">
+            <div class="signal-left">
+                <p id="signal" class="signal-btn hold">WAIT...</p>
+            </div>
+            <div class="signal-right">
+                <p id="reason">รอการวิเคราะห์...</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- ✅ HISTORY -->
+        <div class="history-section">
+            <h2>ประวัติ</h2>
+            <div class="history" id="history"></div>
+        </div>
+
+        <!-- NEWS -->
+        <div class="news-section">
+            <h2>Related News</h2>
+            <div id="newsContainer"></div>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

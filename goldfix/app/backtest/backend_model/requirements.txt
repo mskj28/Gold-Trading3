@@ -1,0 +1,8 @@
+groq
+requests
+feedparser
+pandas
+numpy
+yfinance
+fastapi
+uvicorn

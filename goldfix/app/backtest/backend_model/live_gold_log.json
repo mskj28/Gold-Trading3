@@ -1,0 +1,35 @@
+[
+    {
+        "date": "2026-04-18 13:23:02",
+        "period": "WE_Active",
+        "trades_done": "0/2",
+        "action": "HOLD",
+        "price": "MARKET",
+        "reason": "The current technical outlook indicates a bearish trend and the currency risk score suggests a strong baht trend that may suppress Thai gold prices, making it unfavorable to buy, and since no gold is held, selling is not an option, so it's best to hold and wait for a better technical setup.",
+        "amount": "0",
+        "assoc_price": "MARKET",
+        "total_asset_value": 1500.0
+    },
+    {
+        "date": "2026-04-18 13:38:12",
+        "period": "WE_Active",
+        "trades_done": "0/2",
+        "action": "HOLD",
+        "price": "MARKET",
+        "reason": "[TIMEOUT/USER OVERRIDE] Forced HOLD",
+        "amount": "0",
+        "assoc_price": "MARKET",
+        "total_asset_value": 1500.0
+    },
+    {
+        "date": "2026-04-18 13:41:55",
+        "period": "WE_Active",
+        "trades_done": "0/2",
+        "action": "HOLD",
+        "price": "MARKET",
+        "reason": "[TIMEOUT/USER OVERRIDE] Forced HOLD",
+        "amount": "0",
+        "assoc_price": "MARKET",
+        "total_asset_value": 1500.0
+    }
+]
