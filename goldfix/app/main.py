@@ -40,7 +40,7 @@ from fastapi.middleware.cors import CORSMiddleware
 # ใส่ URL ของ Vercel ที่คุณได้มาลงในลิสต์นี้
 origins = [
     "http://localhost:3000", # สำหรับตอนรันเทสในเครื่อง
-    "https://your-project-name.vercel.app", # <--- เปลี่ยนเป็น URL จริงของ Vercel คุณ
+    "https://goldtrading-navy.vercel.app/", # <--- เปลี่ยนเป็น URL จริงของ Vercel คุณ
 ]
 
 LOG_FILE = "logs.json"
