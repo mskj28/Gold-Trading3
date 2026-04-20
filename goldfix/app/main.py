@@ -34,15 +34,6 @@ CREATE TABLE IF NOT EXISTS logs (
 """)
 conn.commit()
 
-# --- เพิ่มโค้ดส่วนนี้ลงไป ---
-from fastapi.middleware.cors import CORSMiddleware
-
-# ใส่ URL ของ Vercel ที่คุณได้มาลงในลิสต์นี้
-origins = [
-    "http://localhost:3000", # สำหรับตอนรันเทสในเครื่อง
-    "https://goldtrading-navy.vercel.app/", # <--- เปลี่ยนเป็น URL จริงของ Vercel คุณ
-]
-
 LOG_FILE = "logs.json"
 app = FastAPI(
     title=settings.APP_NAME,
