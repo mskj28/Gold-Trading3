@@ -10,7 +10,7 @@ from app.routes.risk import router as risk_router
 from app.routes.usdthb import usdthb_router
 
 # 🔥 AI proxy
-from app.routes import router as ai_proxy_router
+from app.routes.ai_proxy import router as ai_proxy_router
 
 from datetime import datetime, timezone, timedelta
 import json
